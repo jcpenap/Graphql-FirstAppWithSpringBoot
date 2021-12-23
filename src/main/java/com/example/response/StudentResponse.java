@@ -28,6 +28,8 @@ public class StudentResponse {
 
     private Student student;
 
+    private String fullName;
+
     public StudentResponse (Student student) {
         this.student = student;
         this.id = student.getId();
@@ -37,7 +39,6 @@ public class StudentResponse {
 
         this.street = student.getAddress().getStreet();
         this.city = student.getAddress().getCity();
-
     }
 
 }
