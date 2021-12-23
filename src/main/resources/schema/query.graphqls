@@ -22,6 +22,7 @@ type StudentResponse {
 }
 
 enum SubjectNameFilter {
+    All,
     Java,
     MySQL,
     MongoDB
